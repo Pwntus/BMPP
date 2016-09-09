@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 void error(char *error_msg);
-uint8_t bmp_parse(char *bmp_fn);
+uint8_t bmp_parse(char *bmp_fn, int fmt);
 
 typedef struct header_t {
 	uint16_t 	signature;
