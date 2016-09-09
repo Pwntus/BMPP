@@ -5,5 +5,5 @@ Bitmap image parser written in C.
 
 ```term
 $ make
-$ ./bmpp <bitmap file>
+$ ./bmpp <bitmap file> [-json]
 ```
