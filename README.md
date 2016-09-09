@@ -3,6 +3,7 @@ Bitmap image parser written in C.
 
 > Usage:
 
-> $ make
-
-> $ ./bmpp <bitmap file>
+```term
+$ make
+$ ./bmpp <bitmap file>
+```

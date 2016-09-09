@@ -8,3 +8,6 @@ OBJ = bmpp.o bmpplib.o
 
 bmpp: $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^
+
+clean:
+	$(RM) *.o *~ bmpp
