@@ -56,5 +56,7 @@ uint8_t bmp_parse(char *bmp_fn) {
 	printf("R1: 0x%X\n", (uint16_t)file_header.reserved_1);
 	printf("Offset: 0x%X\n", (uint32_t)file_header.offset);
 
+	fclose(bmp_f);
+
 	return 1;
 }
