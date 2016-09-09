@@ -1,6 +1,7 @@
 # BMPP - Bitmap Parser
 Bitmap image parser written in C.
 
-> Usage
+> Usage:
 
-> `$ bmpp <bitmap file>`
+> `$ make`
+> `$ ./bmpp <bitmap file>`
