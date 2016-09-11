@@ -41,7 +41,7 @@ static void print_json(header_t *a, info_header_t *b) {
 	printf("\"height\":%d,", (int32_t)b->height);
 	printf("\"color_panels\":%d,", (uint16_t)b->n_cplanes);
 	printf("\"bpp\":%d,", (uint16_t)b->n_bpp);
-	printf("\"compression\":\"%s\",", fmt_comp(b->compression));
+	printf("\"compression\":\"%d,%s\",", (uint32_t)b->compression, fmt_comp(b->compression));
 	printf("\"img_size\":%d,", (uint32_t)b->img_size);
 	printf("\"y_res\":%d,", (int32_t)b->y_res);
 	printf("\"x_res\":%d,", (int32_t)b->x_res);
